@@ -1,0 +1,183 @@
+*{
+    width: 100%;
+    height:95%;
+    margin:0;
+    padding:0;
+    font-family: 'Rubik', sans-serif;
+}
+.details{
+    height:12%;
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+}
+.detas{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto;
+    margin-right:auto;
+}
+.icon{
+    background-color:grey;
+}
+.icon-det{
+    font-size:0.8em;
+    justify-content: center;
+}
+.dets{
+    font-size:0.5em;
+}
+.name{
+    flex:3;
+    font-size:3em;
+    font-weight: 600;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.contact-number{
+    flex:1;
+}
+.contact-email{
+    flex:1;
+}
+.contact-linkedin{
+    flex:1;
+}
+.contact-github{
+    flex:1;
+}
+.maincv{
+    display:flex;
+    flex-direction: row;
+    height:85%;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.halfpage1{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.halfpage2{
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+.experience{
+    flex:3;
+}
+.project{
+    flex:7;
+}
+.skills{
+    /* flex:1; */
+}
+.certificates{
+    /* flex:1; */
+}
+.educations{
+    /* flex:1; */
+    
+}
+.section{
+    font-size:1.6em;
+    height: auto;
+    font-weight:500;
+    border-bottom: 3px solid #000;
+}
+.content{
+    height:auto;
+    /* border-bottom: 2px solid grey; */
+}
+.exp-head{
+    font-size:1.2em;
+}
+.exp-place{
+    font-size:1em;
+    color:#008cff;
+    font-weight:medium;
+}
+.exp-dur{
+    font-size:0.6em;
+    color:#363636;
+}
+.exp-brief{
+    font-size:0.9em;
+    /* border-bottom: 1px solid #AFAFAF; */
+}
+.lists{
+    margin-left:3%;
+}
+.separate{
+    border-bottom: 1px solid #AFAFAF;
+    height:3px;
+}
+a{
+    font-size:0.8em;
+    color:#696969;
+    text-decoration: none;
+}
+.skills-sec{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:80%;
+}
+.skills-name{
+    width:auto;
+    height:20px;
+    margin:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border: 1px solid grey;
+}
+.certif-name{
+    height:auto;
+    width:100%;
+}
+.edu-content{
+    display:flex;
+    flex-direction: row;
+    height:auto;
+    margin:5px;
+}
+.edu-main{
+    flex:4;
+}
+.edu-mark{
+    flex:1;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius:3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #AFAFAF;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #008cff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #008cff;
+  }
