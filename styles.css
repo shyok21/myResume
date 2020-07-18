@@ -66,13 +66,13 @@
     flex: 3;
     display: flex;
     flex-direction: column;
-    margin:10px;
+    margin:20px;
 }
 .halfpage2{
     flex:2;
     display:flex;
     flex-direction:column;
-    margin:10px;
+    margin:20px;
 }
 .experience{
     flex:3;
@@ -81,10 +81,10 @@
     flex:7;
 }
 .skills{
-    /* flex:1; */
+    flex:1;
 }
 .certificates{
-    /* flex:1; */
+    flex:1;
 }
 .educations{
     /* flex:1; */
@@ -98,22 +98,27 @@
 }
 .content{
     height:auto;
+    margin:10px;
     /* border-bottom: 2px solid grey; */
 }
 .exp-head{
     font-size:1.2em;
+    margin:3px;
 }
 .exp-place{
     font-size:1em;
     color:#008cff;
     font-weight:medium;
+    margin:3px;
 }
 .exp-dur{
     font-size:0.6em;
     color:#363636;
+    margin:3px;
 }
 .exp-brief{
     font-size:0.9em;
+    margin:3px;
     /* border-bottom: 1px solid #AFAFAF; */
 }
 .lists{
@@ -129,10 +134,11 @@ a{
     text-decoration: none;
 }
 .skills-sec{
+    margin:10px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height:80%;
+    height:50%;
 }
 .skills-name{
     width:auto;
@@ -147,12 +153,13 @@ a{
 .certif-name{
     height:auto;
     width:100%;
+    margin:10px;
 }
 .edu-content{
     display:flex;
     flex-direction: row;
     height:auto;
-    margin:5px;
+    margin:10px;
 }
 .edu-main{
     flex:4;
